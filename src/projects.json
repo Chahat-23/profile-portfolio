@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Project 1",
+    "description": "A brief description of Project 1",
+    "url": "https://your-vercel-project-1-url"
+  },
+  {
+    "id": 2,
+    "name": "Project 2",
+    "description": "A brief description of Project 2",
+    "url": "https://your-vercel-project-2-url"
+  }
+]
