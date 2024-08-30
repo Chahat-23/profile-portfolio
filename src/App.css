@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lora', serif;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+}
+
+
+.social-profile-card {
+    background-color: #6b35d78b;
+    padding: 40px;
+    border-radius: 15px;
+    width: 320px;
+    max-width: 90%;
+    text-align: center;
+    margin-top: 220px;
+    z-index: 1;
+    box-shadow: 10px 10px 15px #ffc3e496;
+    border: 2px solid #ffc3e496;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;    
+}
+
+.h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.location {
+    color: #ffc3e4;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+p{
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+button {
+  background-color: #ffc3e4;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  color: #ea2a6f;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ea2a6f;
+  color: #ffc3e4;
+  box-shadow: 5px 5px 10px #ea2a70c6;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+button:focus {
+  border: none; /* Ensure no border on focus or active state */
+  outline: none; /* Ensure no focus outline */
+  box-shadow: none; /* Ensure no box shadow on focus or active state */
+}
