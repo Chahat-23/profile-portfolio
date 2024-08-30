@@ -13,7 +13,7 @@ export default function SocialProfileCard() {
       <img src={profileImage} alt="profile-image" className="profile-image" />
       <div className="h1">Chahat Shrivastava</div>
       <div className="location">Bengaluru, India</div>
-      <p>Frontend developer & web3 enthusiast</p>
+      <p>Frontend Developer with Web3 Curiosity</p>
 
       <div className="buttons">
         <button
