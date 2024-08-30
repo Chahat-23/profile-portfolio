@@ -2,7 +2,6 @@ body {
   justify-content: center;
   font-family: 'Lora', serif;
   margin: 0;
-  overflow: auto;
 }
 
 .bg-video {
