@@ -18,7 +18,7 @@ export default function SocialProfileCard() {
     setTimeout(() => {
       setLoading(false);
       navigate("/projects");
-    }, 100000);
+    }, 2000);
   };
 
   if (loading) return <Loader />;
