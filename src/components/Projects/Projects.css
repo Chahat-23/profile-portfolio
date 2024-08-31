@@ -1,0 +1,122 @@
+
+.ProjectsPage {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.Title {
+  text-align: center;
+  font-size: 30px;
+  color: #ffc3e4;
+  font-weight: 800;
+  border-radius: 10px;
+  text-shadow: #ea2a70c6 0px 0px 15px;
+  -webkit-text-stroke: 0.5px #ea2a70c6;
+}
+
+@keyframes toggle {
+  0% {
+    transform: translateY(0px); /* Start at the original position */
+  }
+  50% {
+    transform: translateY(-15px); /* Move up by 10px */
+  }
+  100% {
+    transform: translateY(0px); /* Return to the original position */
+  }
+}
+
+.DownIcon {
+  text-align: center;
+  border-radius: 50%;
+  animation: toggle 1.5s ease-in-out infinite; /* Apply the waving animation */
+  width: 45px;
+  height: 35px;
+}
+
+.projects-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  gap: 25px;
+  margin-bottom: 80px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid with a minimum column width */
+}
+
+.project-card {
+  background-color: #6b35d78b;
+  color: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  min-width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s; 
+  z-index: 1;
+  box-shadow: 5px 5px 10px #ffc3e496;
+  border: 2px solid #ffc3e496;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.projectName {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 2vh;
+}
+
+.projectDescription {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2vh;
+    text-align: justify !important;
+}
+
+.projectLink {
+  background-color: #ffc3e4 !important;
+  border: 1.5px solid #ea2a70c6 !important;
+  border-radius: 14px;
+  padding: 4px 8px;
+  color: #ea2a6f;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.projectLink:hover {
+  background-color: #ea2a6f !important;
+  color: #ffc3e4;
+  box-shadow: 5px 5px 10px #ffc3e496;
+  border: 1.5px solid #ffc3e496 !important; 
+  transform: scale(1.05);
+}
+

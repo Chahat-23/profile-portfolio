@@ -1,0 +1,19 @@
+.show-more-button {
+  background-color: #6b35d78b;
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: #ffc3e4;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 0 15px #ffc3e496;
+  border: 2px solid #ffc3e496;
+}
+
+.show-more-button:hover {
+  color: #ffc3e4;
+  box-shadow: 0px 0px 15px #ffc3e496;
+  border: 1.5px solid #ffc3e496;
+  transform: scale(1.2);
+  -webkit-text-stroke: 0.5px #ea2a70c6;
+}

@@ -1,24 +1,24 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import bgVideo from "./assets/bgVideo.mp4";
 import SocialProfileCard from "./components/SocialProfileCard/SocialProfileCard";
-import wave from "./assets/wave.svg";
+import Projects from "./components/Projects/Projects";
 
 function App() {
-
   return (
-    <div className="app-container">
-      <div className="greetings">
-        <div className="welcome">Welcome to my portfolio!</div>
-        <img src={wave} className="hello" />
+    <Router>
+      <div className="app-container">
+        <video autoPlay loop muted className="bg-video">
+          <source src={bgVideo} type="video/mp4" />
+          Video not supported!
+        </video>
+        <Routes>
+          <Route path="/" element={<SocialProfileCard />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
       </div>
-      <video autoPlay loop muted className="bg-video">
-        <source src={bgVideo} type="video/mp4" />
-        Video not supported!
-      </video>
-
-      <SocialProfileCard />
-    </div>
+    </Router>
   );
 }
 
