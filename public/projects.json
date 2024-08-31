@@ -2,28 +2,18 @@
   "projects": [
     { 
       "id": 1, 
-      "name": "Project 1", 
-      "description": "Lorem ipsum dolor sit amet. Eos velit odit vel quae totam ad consequatur neque. Eum iusto quas et voluptas quibusdam ut sequi dicta a sint autem. ", 
-      "url": "http://example.com" },
+      "name": "Static QR Code Component", 
+      "description": "A React component that shows QR code . Great for adding QR codes to your app or site.", 
+      "url": "https://qr-code-component-main-chahat-23s-projects.vercel.app/" },
     { 
       "id": 2, 
-      "name": "Project 1", 
-      "description": "Lorem ipsum dolor sit amet. Eos velit odit vel quae totam ad consequatur neque. Eum iusto quas et voluptas quibusdam ut sequi dicta a sint autem. ", 
-      "url": "http://example.com" },
+      "name": "Static Blog Preview Card", 
+      "description": "A component that previews blog posts with title, short description, banner, and published details, including date and publisher's profile. Perfect for showing blog summaries in a clean layout.",
+      "url": "https://blog-preview-card-main-chahat-23s-projects.vercel.app/" },
     { 
       "id": 3, 
-      "name": "Project 1", 
-      "description": "Lorem ipsum dolor sit amet. Eos velit odit vel quae totam ad consequatur neque. Eum iusto quas et voluptas quibusdam ut sequi dicta a sint autem. ", 
-      "url": "http://example.com" },
-    { 
-      "id": 4, 
-      "name": "Project 1", 
-      "description": "Lorem ipsum dolor sit amet. Eos velit odit vel quae totam ad consequatur neque. Eum iusto quas et voluptas quibusdam ut sequi dicta a sint autem. ", 
-      "url": "http://example.com" },
-    { 
-      "id": 5, 
-      "name": "Project 1", 
-      "description": "Lorem ipsum dolor sit amet. Eos velit odit vel quae totam ad consequatur neque. Eum iusto quas et voluptas quibusdam ut sequi dicta a sint autem. ", 
-      "url": "http://example.com" }
+      "name": "Card for Social Links Profile", 
+      "description": "A card that displays navigations to social media profiles for a person along with their image, name, and location. Useful for showcasing a person’s entire digital profile all in one place.",
+      "url": "https://social-links-profile-chahat-23s-projects.vercel.app/" }
       ]
 }

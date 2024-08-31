@@ -45,7 +45,7 @@ export default function Projects() {
             <div className="projectName">{project.name}</div>
             <div className="projectDescription">{project.description}</div>
             <a href={project.url} target="_blank" rel="noopener noreferrer" className="projectLink">
-              View Project
+              View Live
             </a>
           </div>
         ))}
