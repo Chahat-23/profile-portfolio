@@ -4,16 +4,25 @@
       "id": 1, 
       "name": "Static QR Code Component", 
       "description": "A React component that shows QR code . Great for adding QR codes to your app or site.", 
-      "url": "https://qr-code-component-main-chahat-23s-projects.vercel.app/" },
+      "url": "https://qr-code-component-main-chahat-23s-projects.vercel.app/" 
+    },
     { 
       "id": 2, 
       "name": "Static Blog Preview Card", 
       "description": "A component that previews blog posts with title, short description, banner, and published details, including date and publisher's profile. Perfect for showing blog summaries in a clean layout.",
-      "url": "https://blog-preview-card-main-chahat-23s-projects.vercel.app/" },
+      "url": "https://blog-preview-card-main-chahat-23s-projects.vercel.app/" 
+    },
     { 
       "id": 3, 
       "name": "Card for Social Links Profile", 
       "description": "A card that displays navigations to social media profiles for a person along with their image, name, and location. Useful for showcasing a person’s entire digital profile all in one place.",
-      "url": "https://social-links-profile-chahat-23s-projects.vercel.app/" }
-      ]
+      "url": "https://social-links-profile-chahat-23s-projects.vercel.app/" 
+    },
+    { 
+      "id": 3, 
+      "name": "A Recipe Detail Page", 
+      "description": "This recipe detail page utilizes a mix of structured formats, including bullet points for preparation times and ingredients, and tabular data for nutritional information. It provides a clear and organized presentation of the recipe details.",
+      "url": "https://recipe-page-main-chahat-23s-projects.vercel.app/" 
+    }
+  ]
 }
