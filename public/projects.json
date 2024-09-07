@@ -23,6 +23,12 @@
       "name": "A Recipe Detail Page", 
       "description": "This recipe detail page utilizes a mix of structured formats, including bullet points for preparation times and ingredients, and tabular data for nutritional information. It provides a clear and organized presentation of the recipe details.",
       "url": "https://recipe-page-main-chahat-23s-projects.vercel.app/" 
+    },
+    { 
+      "id": 5, 
+      "name": "A ToDo App", 
+      "description": "This Todo App allows users to effortlessly manage tasks with full CRUD functionality. It features a user-friendly interface and local storage integration for seamless task management.",
+      "url": "https://todo-crud-chahat-23s-projects.vercel.app/" 
     }
   ]
 }
