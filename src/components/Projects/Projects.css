@@ -102,6 +102,13 @@
     text-align: justify !important;
 }
 
+.techStackUsed {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin-bottom: 2vh;
+    text-align: justify !important;
+}
+
 .projectLink {
   background-color: #ffc3e4 !important;
   border: 1.5px solid #ea2a70c6 !important;

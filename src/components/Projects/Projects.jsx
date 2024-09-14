@@ -44,7 +44,13 @@ export default function Projects() {
           <div key={project.id} className="project-card">
             <div className="projectName">{project.name}</div>
             <div className="projectDescription">{project.description}</div>
-            <a href={project.url} target="_blank" rel="noopener noreferrer" className="projectLink">
+            <div className="techStackUsed"><span style={{"fontWeight": "bold"}}>Tech Stack Used:</span> {project.techStackUsed}</div>:
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="projectLink"
+            >
               View Live
             </a>
           </div>
