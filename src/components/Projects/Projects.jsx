@@ -44,7 +44,10 @@ export default function Projects() {
           <div key={project.id} className="project-card">
             <div className="projectName">{project.name}</div>
             <div className="projectDescription">{project.description}</div>
-            <div className="techStackUsed"><span style={{"fontWeight": "bold"}}>Tech Stack Used:</span> {project.techStackUsed}</div>:
+            <div className="techStackUsed">
+              <span style={{ fontWeight: "bold" }}>Tech Stack Used:</span>{" "}
+              {project.techStackUsed}
+            </div>
             <a
               href={project.url}
               target="_blank"
