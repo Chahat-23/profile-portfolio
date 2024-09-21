@@ -31,7 +31,7 @@ export default function SocialProfileCard() {
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "../../assets/Resume-Chahat-Dev.pdf";
+        alink.download = "Resume-Chahat-Dev.pdf";
         alink.click();
       });
     });
