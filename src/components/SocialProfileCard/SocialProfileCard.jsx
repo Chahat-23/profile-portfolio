@@ -22,15 +22,20 @@ export default function SocialProfileCard() {
   };
 
   const saveFile = () => {
-    const pdfUrl = "../../assets/Resume-Chahat-Dev.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "Chahat-Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+    // using Java Script method to get PDF file
+    fetch("../../assets/Resume-Chahat-Dev.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
 
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "../../assets/Resume-Chahat-Dev.pdf";
+        alink.click();
+      });
+    });
+  };
   if (loading) return <Loader />;
 
   return (
