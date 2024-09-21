@@ -21,6 +21,16 @@ export default function SocialProfileCard() {
     }, 1500);
   };
 
+  const saveFile = () => {
+    const pdfUrl = "/src/assets/Resume-Chahat-Dev.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "Chahat-Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   if (loading) return <Loader />;
 
   return (
@@ -36,6 +46,9 @@ export default function SocialProfileCard() {
         <p>Frontend Developer with Web3 Curiosity</p>
 
         <div className="buttons">
+          <button className="btn" onClick={saveFile}>
+            Download Resume 🡇
+          </button>
           <button className="btn" onClick={handleProjectsClick}>
             Projects
           </button>
