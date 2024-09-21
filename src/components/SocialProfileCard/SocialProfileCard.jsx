@@ -22,7 +22,7 @@ export default function SocialProfileCard() {
   };
 
   const saveFile = () => {
-    const pdfUrl = "/src/assets/Resume-Chahat-Dev.pdf";
+    const pdfUrl = "../../assets/Resume-Chahat-Dev.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Chahat-Resume.pdf";
