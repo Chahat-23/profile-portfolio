@@ -1,35 +1,36 @@
 {
   "projects": [
     { 
-      "id": 1, 
+      "name": "Dynamic Form with Submit & Display Navigations",       
+      "techStackUsed": "React Js, Tailwind CSS",
+      "description": "This dynamic form allows users to input data and submit it with ease, providing seamless navigation through various form sections. It opens loader on submit and navigation for displaying form data stored on local storage.",
+      "url": "https://dynamic-form-chahat-23s-projects.vercel.app/" 
+    },
+    { 
       "name": "ToDo App",       
       "techStackUsed": "React Js, CSS",	
       "description": "This Todo App allows users to effortlessly manage tasks with full CRUD functionality. It features a user-friendly interface and local storage integration for seamless task management.",
       "url": "https://todo-crud-chahat-23s-projects.vercel.app/" 
     },
     { 
-      "id": 2, 
       "name": "Static Recipe Detail Page",
       "techStackUsed": "Html, CSS",	
       "description": "This recipe detail page utilizes a mix of structured formats, including bullet points for preparation times and ingredients, and tabular data for nutritional information. It provides a clear and organized presentation of the recipe details.",
       "url": "https://recipe-page-main-chahat-23s-projects.vercel.app/" 
     },
     { 
-      "id": 3, 
       "name": "Static Card for Social Links Profile",
       "techStackUsed": "Html, CSS",	
       "description": "A card that displays navigations to social media profiles for a person along with their image, name, and location. Useful for showcasing a person’s entire digital profile all in one place.",
       "url": "https://social-links-profile-chahat-23s-projects.vercel.app/" 
     },
     { 
-      "id": 4, 
       "name": "Static Blog Preview Card",
       "techStackUsed": "Html, CSS",	
       "description": "A component that previews blog posts with title, short description, banner, and published details, including date and publisher's profile. Perfect for showing blog summaries in a clean layout.",
       "url": "https://blog-preview-card-main-chahat-23s-projects.vercel.app/" 
     },
     { 
-      "id": 5, 
       "name": "Static QR Code Component",
       "techStackUsed": "Html, CSS",	
       "description": "A React component that shows QR code . Great for adding QR codes to your app or site.", 

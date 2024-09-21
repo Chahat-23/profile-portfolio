@@ -40,8 +40,8 @@ export default function Projects() {
         <img src={DownIcon} className="DownIcon" />
       </div>
       <div className="project-grid">
-        {projects.slice(0, visibleCount).map((project) => (
-          <div key={project.id} className="project-card">
+        {projects.slice(0, visibleCount).map((project, index) => (
+          <div key={index} className="project-card">
             <div className="projectName">{project.name}</div>
             <div className="projectDescription">{project.description}</div>
             <div className="techStackUsed">
