@@ -9,10 +9,10 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <video autoPlay loop muted className="bg-video">
+        {/* <video autoPlay loop muted className="bg-video">
           <source src={bgVideo} type="video/mp4" />
           Video not supported!
-        </video>
+        </video> */}
         <Routes>
           <Route path="/" element={<SocialProfileCard />} />
           <Route path="/projects" element={<Projects />} />

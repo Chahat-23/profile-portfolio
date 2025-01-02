@@ -32,11 +32,15 @@
     font-size: 24px;
 }
 
+.bio {
+  margin-top: 20px;
+}
+
 p{
     color: hsl(0, 0%, 100%);
     font-size: 14px;
     font-weight: 500;
-    margin-top: 20px;
+    margin: 1px;
 }
 
 .buttons {
@@ -56,17 +60,18 @@ p{
   font-size: 18px;
   font-weight: 800;
   cursor: pointer;
+  box-shadow: 3px 3px 0px #ea2a6f,
+              0 8px 10px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
   background-color: #ea2a6f !important;
   color: #ffc3e4;
-  box-shadow: 5px 5px 10px #ffc3e496;
+  box-shadow: 5px 5px 8px #ffc3e496,
+              0 8px 10px rgba(0, 0, 0, 0.2);
   border: 1.5px solid #ffc3e496 !important; 
   transform: scale(1.05);
 }
-
-
 
 .greetings {
   display: flex;

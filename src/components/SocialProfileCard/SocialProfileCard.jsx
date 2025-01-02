@@ -33,7 +33,7 @@ export default function SocialProfileCard() {
       });
     });
   };
-  
+
   if (loading) return <Loader />;
 
   return (
@@ -46,20 +46,28 @@ export default function SocialProfileCard() {
         <img src={profileImage} alt="profile-image" className="profile-image" />
         <div className="h1">Chahat Shrivastava</div>
         <div className="location">Bengaluru, India</div>
-        <p>Frontend Developer with Web3 Curiosity</p>
-
+        <div className="bio">
+          <p>A Web2 Front-end Dev, &</p>
+          <p>A Web3 Content & Social-Media Strategist</p>
+        </div>
         <div className="buttons">
           <button className="btn" onClick={saveFile}>
             Download Resume 🡇
           </button>
           <button className="btn" onClick={handleProjectsClick}>
-            Projects
+            Dev Projects
           </button>
           <button
             className="btn"
             onClick={() => handleButtonClick("https://github.com/Chahat-23")}
           >
             GitHub
+          </button>
+          <button
+            className="btn"
+            onClick={() => handleButtonClick("https://x.com/Chahat23S")}
+          >
+            Twitter
           </button>
           <button
             className="btn"
@@ -73,9 +81,13 @@ export default function SocialProfileCard() {
           </button>
           <button
             className="btn"
-            onClick={() => handleButtonClick("https://x.com/Chahat23S")}
+            onClick={() =>
+              handleButtonClick(
+                "https://docs.google.com/spreadsheets/d/1wNaeFf9d1XnQG8qJc0AuI0WsjjpaKQvI4qrVAvrn3rU/edit?gid=0#gid=0"
+              )
+            }
           >
-            Twitter
+            Content Portfolio
           </button>
         </div>
       </div>

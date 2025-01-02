@@ -56,10 +56,9 @@
   border-radius: 15px;
   padding: 25px;
   min-width: 250px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s, box-shadow 0.3s; 
   z-index: 1;
-  box-shadow: 5px 5px 10px #ffc3e496;
+  box-shadow: 5px 5px 0px #ffc3e496;
   border: 2px solid #ffc3e496;
 }
 
