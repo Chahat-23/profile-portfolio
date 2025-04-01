@@ -22,7 +22,7 @@ export default function SocialProfileCard() {
   };
 
   const saveFile = () => {
-    fetch("Resume-Chahat-Dev.pdf").then((response) => {
+    fetch("/src/assets/Resume-Chahat-Dev.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
 
@@ -52,7 +52,7 @@ export default function SocialProfileCard() {
         </div>
         <div className="buttons">
           <button className="btn" onClick={saveFile}>
-            Download Resume 🡇
+            Download Resume
           </button>
           <button className="btn" onClick={handleProjectsClick}>
             Dev Projects
