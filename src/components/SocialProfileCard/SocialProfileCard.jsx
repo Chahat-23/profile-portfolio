@@ -65,6 +65,26 @@ export default function SocialProfileCard() {
           </button>
           <button
             className="btn"
+            onClick={() =>
+              handleButtonClick(
+                "https://docs.google.com/spreadsheets/d/1wNaeFf9d1XnQG8qJc0AuI0WsjjpaKQvI4qrVAvrn3rU/edit?gid=0#gid=0"
+              )
+            }
+          >
+            Content Portfolio
+          </button>
+          <button
+            className="btn"
+            onClick={() =>
+              handleButtonClick(
+                "https://docs.google.com/spreadsheets/d/1xdHcSNu1_3tqU4aQ7sWBY6e5DnKZTEUZtvatDN3CGgw/edit?usp=sharing"
+              )
+            }
+          >
+            UI/UX & Decks
+          </button>
+          <button
+            className="btn"
             onClick={() => handleButtonClick("https://x.com/Chahat23S")}
           >
             Twitter
@@ -78,16 +98,6 @@ export default function SocialProfileCard() {
             }
           >
             LinkedIn
-          </button>
-          <button
-            className="btn"
-            onClick={() =>
-              handleButtonClick(
-                "https://docs.google.com/spreadsheets/d/1wNaeFf9d1XnQG8qJc0AuI0WsjjpaKQvI4qrVAvrn3rU/edit?gid=0#gid=0"
-              )
-            }
-          >
-            Content Portfolio
           </button>
         </div>
       </div>
