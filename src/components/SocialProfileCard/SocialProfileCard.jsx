@@ -21,19 +21,6 @@ export default function SocialProfileCard() {
     }, 1500);
   };
 
-  const saveFile = () => {
-    fetch("/src/assets/Resume-Chahat-Dev.pdf").then((response) => {
-      response.blob().then((blob) => {
-        const fileURL = window.URL.createObjectURL(blob);
-
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "Resume-Chahat-Dev.pdf";
-        alink.click();
-      });
-    });
-  };
-
   if (loading) return <Loader />;
 
   return (
@@ -51,8 +38,15 @@ export default function SocialProfileCard() {
           <p>A Web3 Content & Social-Media Strategist</p>
         </div>
         <div className="buttons">
-          <button className="btn" onClick={saveFile}>
-            Download Resume
+          <button
+            className="btn"
+            onClick={() =>
+              handleButtonClick(
+                "https://drive.google.com/file/d/1BFw86mniT4AomxpzYAYS9KEsxhID1_Eo/view?usp=sharing"
+              )
+            }
+          >
+            Resume
           </button>
           <button className="btn" onClick={handleProjectsClick}>
             Dev Projects
