@@ -23,36 +23,17 @@ export default function SocialProfileCard() {
 
   const saveFile = () => {
     fetch("/src/assets/Resume-Chahat-Dev.pdf").then((response) => {
-      // Check if the response is OK (status 200)
-      if (!response.ok) {
-        throw new Error(`Failed to fetch file: ${response.status} ${response.statusText}`);
-      }
-      // Ensure the response is a PDF
-      const contentType = response.headers.get("Content-Type");
-      if (!contentType || !contentType.includes("application/pdf")) {
-        throw new Error("Fetched file is not a PDF");
-      }
-      return response.blob();
-    })
-    .then((blob) => {
-      // Create a URL for the blob
-      const fileURL = window.URL.createObjectURL(blob);
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
 
-      // Create and trigger the download
-      let alink = document.createElement("a");
-      alink.href = fileURL;
-      alink.download = "Resume-Chahat-Dev.pdf"; // Filename for the download
-      alink.click();
-
-      // Clean up the URL object to free memory
-      window.URL.revokeObjectURL(fileURL);
-    })
-    .catch((error) => {
-      console.error("Error downloading file:", error);
-      alert("Failed to download the resume. Check the console for details.");
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Resume-Chahat-Dev.pdf";
+        alink.click();
+      });
     });
+  };
 
-    
   if (loading) return <Loader />;
 
   return (
